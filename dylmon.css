@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;   
+}
+
+.yesb {
+  background-color: pink;
+  padding: 20px 50px;
+  font-size: 20px;
+  border-radius: 20px;
+  outline: black; 
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+
+.yesb:hover {
+  background-color: red;
+}
+
+
+
+.nob {
+  background-color: pink;
+  padding: 20px 50px;
+  font-size: 20px;
+  border-radius: 20px;
+  outline: black; 
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+
+.nob:hover {
+  background-color: red;
+}

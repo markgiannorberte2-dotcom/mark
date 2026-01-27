@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ILOVEYOU</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="dylmon.css" type="text/css">
+</head>
+
+<body style="background-color: rgb(200, 128, 231); text-align:center;">
+
+  <h1>Do you love me or not?</h1>
+
+  <button class="yesb" onclick="byes()">YES! ❤️</button><br>
+  <button class="nob" onclick="nope()">NO!</button>
+
+  <script>
+    function byes() {
+      document.body.innerHTML = `
+        <h1>Gaano? 💕</h1>
+        <button class="yesb" onclick="nope2()">Kunti</button><br>
+        <button class="nob" onclick="byes2()">Marami</button>
+      `;
+    }
+    function byes2() {
+     document.body.innerHTML = `
+        <h1>YEYYYY</H1>
+     `;
+    }
+
+    function nope() {
+      alert("Ay 😢");
+    }
+
+    function nope2() {
+       alert("OKAYYYYY😓😔") 
+    }
+  </script>
+
+</body>
+</html>
