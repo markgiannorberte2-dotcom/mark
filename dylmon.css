@@ -40,3 +40,16 @@ body {
 .nob:hover {
   background-color: red;
 }
+
+.dyl {
+ border-color: blueviolet;
+  background-color: blueviolet;
+  border-radius: 15px;
+  padding: 20px 50px;
+  font-style: italic;
+
+}
+
+.yey {
+  font-size: 250px;
+}
